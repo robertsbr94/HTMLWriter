@@ -7,9 +7,9 @@ namespace HTMLWriterPackage
     public class HTMLWriter : ElementBuilder
     {
         //Properties
-        protected XmlWriter Body { get; set; }
+        private XmlWriter Body { get; set; }
 
-        protected XmlWriter Head { get; set; }
+        private XmlWriter Head { get; set; }
 
         //Constructor
         public HTMLWriter()
